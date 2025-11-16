@@ -1,0 +1,32 @@
+// Custom styles for DiReC Lab website
+
+// Force all people blocks to use 3-column grid layout on desktop
+.people-widget .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.people-widget .col-md-auto {
+  width: 100%;
+  max-width: none;
+}
+
+// Ensure proper alignment
+.people-widget .portrait {
+  text-align: center;
+}
+
+// Responsive: on tablets, use 2 columns
+@media (max-width: 992px) {
+  .people-widget .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Responsive: on phones, use 1 column
+@media (max-width: 576px) {
+  .people-widget .row {
+    grid-template-columns: 1fr;
+  }
+}
