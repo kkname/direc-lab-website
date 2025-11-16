@@ -17,6 +17,22 @@
   text-align: center;
 }
 
+// Make avatars rectangular instead of circular
+.people-widget .avatar {
+  border-radius: 0 !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+.people-widget .avatar-circle {
+  border-radius: 0 !important;
+}
+
+.people-widget img {
+  border-radius: 0 !important;
+}
+
 // Responsive: on tablets, use 2 columns
 @media (max-width: 992px) {
   .people-widget .row {
