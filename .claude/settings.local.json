@@ -4,7 +4,10 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git config:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(hugo mod get:*)",
+      "Bash(hugo mod tidy:*)",
+      "Bash(hugo:*)"
     ],
     "deny": [],
     "ask": []
