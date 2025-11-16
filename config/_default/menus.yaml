@@ -8,20 +8,15 @@ main:
     url: research
     weight: 10
   - name: People
-    url: people
     weight: 20
-  - name: Principal Investigator
+  - name: Advisor
     parent: People
-    url: people#principal-investigator
+    url: advisor
     weight: 21
   - name: The Group
     parent: People
-    url: people#the-group
+    url: team
     weight: 22
-  - name: Join Us
-    parent: People
-    url: contact
-    weight: 23
   - name: Publications
     url: publication
     weight: 30
