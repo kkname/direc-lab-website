@@ -1,0 +1,32 @@
+# DiReC Bright Theme
+# A bright, modern color scheme for DiReC Lab
+
+name = "DiReC Bright"
+
+# Primary color - Bright blue
+[light]
+  primary = "#0ea5e9"
+  primary_light = "#38bdf8"
+  primary_dark = "#0284c7"
+
+  # Links
+  link = "#0ea5e9"
+  link_hover = "#0284c7"
+
+  # Menu
+  menu_primary = "#ffffff"
+  menu_text = "#1f2937"
+  menu_text_active = "#0ea5e9"
+  menu_title = "#1f2937"
+
+  # Home sections
+  home_section_odd = "#ffffff"
+  home_section_even = "#f8fafc"
+
+  # Background colors
+  background = "#ffffff"
+  background_2 = "#f1f5f9"
+
+  # Text
+  text = "#1f2937"
+  text_light = "#6b7280"

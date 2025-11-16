@@ -77,6 +77,6 @@ sections:
         folders:
           - publication
     design:
-      view: citation
+      view: compact
       columns: '1'
 ---

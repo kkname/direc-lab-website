@@ -1,77 +1,78 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: H. David Jeong
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: H. David
+last_name: Jeong
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Professor & Associate Department Head, James C. Smith CIAC Endowed Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Texas A&M University
+    url: 'https://www.tamu.edu'
+  - name: Department of Construction Science
+    url: ''
+  - name: Texas A&M Transportation Institute
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research focuses on applying data analytics and artificial intelligence to construction management, natural language processing, civil integrated management, and infrastructure asset management.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Data Analytics and Artificial Intelligence in Construction Management
+  - Natural Language Processing
+  - Civil Integrated Management
+  - Infrastructure Asset Management
+  - Construction Risk and Cost Estimation
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Ph.D. in Civil Engineering (Construction Engineering and Management)
+      institution: Purdue University
+      year: 2005
+    - course: M.S. in Civil Engineering (Construction Engineering and Management)
+      institution: Purdue University
+      year: 2001
+    - course: B.S. in Agricultural Engineering
+      institution: Seoul National University, South Korea
+      year: 1994
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: 'mailto:djeong@tamu.edu'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+    link: https://scholar.google.com/citations?user=djeong
+  - icon: building
+    icon_pack: fas
+    link: https://construction.arch.tamu.edu/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'djeong@tamu.edu'
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Director
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Dr. H. David Jeong is a Professor and Associate Department Head in the Department of Construction Science at Texas A&M University, where he holds the James C. Smith CIAC Endowed Professorship. He also serves as an Associate Research Engineer at the Texas A&M Transportation Institute (TTI).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+His research focuses on applying data analytics and artificial intelligence to construction management, with expertise in natural language processing, civil integrated management, and infrastructure asset management. Dr. Jeong's work has been recognized with multiple awards, including the 2024 ASCE Journal of Construction Engineering and Management Best Paper of the Year Award and the 2016 Best Paper of the Year Award from the same journal.
+
+Before joining Texas A&M in 2018, Dr. Jeong held faculty positions at Iowa State University (2012-2018) and Oklahoma State University (2005-2012). He began his career as a Project Engineer at Daewoo Engineering & Construction in Seoul, South Korea (1994-2000).
+
+**Contact Information:**
+- **Phone:** (979) 458-9380
+- **Email:** djeong@tamu.edu
+- **Office:** Francis Hall, Room 321B, Texas A&M University, College Station, TX 77843-3137
