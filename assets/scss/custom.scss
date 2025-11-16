@@ -1,20 +1,32 @@
 // Custom styles for DiReC Lab website
 
-// Force all people blocks to use 3-column grid layout on desktop
+// People block: horizontal layout with photo on left, bio on right
 .people-widget .row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .people-widget .col-md-auto {
   width: 100%;
   max-width: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
 }
 
-// Ensure proper alignment
+// Photo container - fixed width on left
 .people-widget .portrait {
-  text-align: center;
+  flex-shrink: 0;
+  width: 250px;
+  text-align: left;
+}
+
+// Bio container - takes remaining space on right
+.people-widget .biography {
+  flex: 1;
+  min-width: 0;
 }
 
 // Make avatars rectangular instead of circular
@@ -33,16 +45,26 @@
   border-radius: 0 !important;
 }
 
-// Responsive: on tablets, use 2 columns
-@media (max-width: 992px) {
-  .people-widget .row {
-    grid-template-columns: repeat(2, 1fr);
-  }
+// Name styling
+.people-widget h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
-// Responsive: on phones, use 1 column
-@media (max-width: 576px) {
-  .people-widget .row {
-    grid-template-columns: 1fr;
+// Role styling
+.people-widget .role {
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+// Responsive: on tablets and phones, stack photo above bio
+@media (max-width: 768px) {
+  .people-widget .col-md-auto {
+    flex-direction: column;
+  }
+
+  .people-widget .portrait {
+    width: 100%;
+    max-width: 300px;
   }
 }
