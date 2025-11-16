@@ -5,24 +5,55 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     content:
-      title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
+      title: DiReC Lab
+      subtitle: Digital Innovation and Research in Construction
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+
+        We advance data-driven and AI-enabled approaches to improve work processes, efficiency, and sustainability across the built environment.
+
+        <br>
   
+  - block: markdown
+    content:
+      title: Research
+      subtitle:
+      text: |
+        Our research focuses on four key areas:
+
+        **Project Intelligence** — Automating interpretation of project documents and generating solutions through AI and data analytics
+
+        **Data Interoperability** — Creating open, standards-based models for systems compatibility in asset-intensive industries
+
+        **Workforce Solutions** — Addressing construction labor shortages through productivity improvements and development strategies
+
+        **Educational Innovation** — Employing interactive games and simulations to enhance project management training effectiveness
+
+        [View Research →](./research/)
+    design:
+      columns: '1'
+
   - block: collection
     content:
-      title: Latest News
+      title: Recent Publications
+      text: ""
+      count: 3
+      filters:
+        folders:
+          - publication
+        publication_type: 'article'
+    design:
+      view: compact
+      columns: '1'
+
+  - block: collection
+    content:
+      title: News
       subtitle:
       text:
-      count: 5
+      count: 3
       filters:
         author: ''
         category: ''
@@ -33,40 +64,7 @@ sections:
       order: desc
       page_type: post
     design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
+      view: compact
       columns: '1'
 
   - block: markdown
