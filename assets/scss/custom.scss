@@ -1,35 +1,97 @@
 // Custom styles for DiReC Lab website
 
-// People block: horizontal layout with photo on left, bio on right
+// Team member horizontal layout (photo left, bio right)
+.team-member {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+// Photo container - fixed width on left
+.member-photo {
+  flex-shrink: 0;
+  width: 250px;
+}
+
+.member-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+// Bio container - takes remaining space on right
+.member-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.member-role {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.member-name {
+  margin: 0 0 1rem 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.member-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.member-name a:hover {
+  color: #0066cc;
+}
+
+.member-bio {
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+// People widget styling (for Alumni section)
 .people-widget .row {
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
 
-.people-widget .col-md-auto {
-  width: 100%;
-  max-width: none;
+// Hide category headers in people widget
+.people-widget .col-md-12 h2 {
+  display: none;
+}
+
+// Each person container: horizontal layout
+.people-widget .people-person {
+  width: 100% !important;
+  max-width: 100% !important;
   display: flex;
   flex-direction: row;
   gap: 2rem;
   align-items: flex-start;
+  margin-bottom: 2rem;
 }
 
-// Photo container - fixed width on left
-.people-widget .portrait {
+// Photo container in people widget
+.people-widget .people-person > a {
   flex-shrink: 0;
   width: 250px;
-  text-align: left;
 }
 
-// Bio container - takes remaining space on right
-.people-widget .biography {
+// Bio container in people widget
+.people-widget .portrait-title {
   flex: 1;
   min-width: 0;
 }
 
-// Make avatars rectangular instead of circular
+// Make avatars rectangular
 .people-widget .avatar {
   border-radius: 0 !important;
   width: 100% !important;
@@ -45,25 +107,22 @@
   border-radius: 0 !important;
 }
 
-// Name styling
-.people-widget h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-// Role styling
-.people-widget .role {
-  color: #888;
-  margin-bottom: 1rem;
-}
-
 // Responsive: on tablets and phones, stack photo above bio
 @media (max-width: 768px) {
-  .people-widget .col-md-auto {
+  .team-member {
     flex-direction: column;
   }
 
-  .people-widget .portrait {
+  .member-photo {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .people-widget .people-person {
+    flex-direction: column;
+  }
+
+  .people-widget .people-person > a {
     width: 100%;
     max-width: 300px;
   }
