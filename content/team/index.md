@@ -10,7 +10,10 @@ sections:
       title: The Group
       subtitle:
       text: |
-        <!-- Team photo will be displayed here -->
+        <div class="group-photo-container">
+          <img src="group-photo.jpg" alt="DiReC Lab Team" class="group-photo">
+          <p class="group-photo-caption">The first group dinner in fall 2025</p>
+        </div>
     design:
       columns: '1'
 
