@@ -44,6 +44,9 @@ email: 'oliaee@tamu.edu'
 
 highlight_name: false
 
+# Display order (lower numbers appear first)
+weight: 1
+
 user_groups:
   - Ph.D. Students
 ---

@@ -42,7 +42,7 @@ sections:
       title: Ph.D. Students
       user_groups:
           - Ph.D. Students
-      sort_by: Params.last_name
+      sort_by: Params.weight
       sort_ascending: true
     design:
       show_interests: true

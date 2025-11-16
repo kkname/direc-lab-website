@@ -43,6 +43,9 @@ email: 'tannaz@tamu.edu'
 
 highlight_name: false
 
+# Display order (lower numbers appear first)
+weight: 6
+
 user_groups:
   - Ph.D. Students
 ---

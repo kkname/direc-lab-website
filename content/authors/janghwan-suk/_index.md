@@ -43,6 +43,9 @@ email: 'sukjanghwan@tamu.edu'
 
 highlight_name: false
 
+# Display order (lower numbers appear first)
+weight: 2
+
 user_groups:
   - Ph.D. Students
 ---

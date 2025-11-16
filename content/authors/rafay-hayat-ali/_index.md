@@ -43,6 +43,9 @@ email: 'rafay@tamu.edu'
 
 highlight_name: false
 
+# Display order (lower numbers appear first)
+weight: 3
+
 user_groups:
   - Ph.D. Students
 ---

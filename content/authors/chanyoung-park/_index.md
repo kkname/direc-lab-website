@@ -46,5 +46,4 @@ highlight_name: false
 user_groups:
   - Postdoctoral Researchers
 ---
-
-Dr. Chanyoung Park is a Postdoctoral Researcher in the Department of Construction Science at Texas A&M University. His research focuses on construction risk management, data-driven decision-making, and safety management.
+I am a Postdoctoral Researcher in the Department of Construction Science at Texas A&M University. I hold a Ph.D. in Civil and Environmental Engineering from Yonsei University. My research integrates advanced AI, including Large Language Models and Retrieval Augmented Generation, to enhance asset data interoperability that supports the digital twin ecosystem for industrial and capital projects.Dr. Chanyoung Park is a Postdoctoral Researcher in the Department of Construction Science at Texas A&M University. His research focuses on construction risk management, data-driven decision-making, and safety management.
