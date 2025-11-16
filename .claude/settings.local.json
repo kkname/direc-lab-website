@@ -7,7 +7,8 @@
       "Bash(git push:*)",
       "Bash(hugo mod get:*)",
       "Bash(hugo mod tidy:*)",
-      "Bash(hugo:*)"
+      "Bash(hugo:*)",
+      "Bash(git checkout:*)"
     ],
     "deny": [],
     "ask": []
