@@ -16,21 +16,21 @@
 
 // Main title styling
 .home-section h1 {
-  font-weight: 600;
-  font-size: 2.5rem;
-  letter-spacing: -0.02em;
+  font-weight: 300;
+  font-size: 2.8rem;
+  letter-spacing: -0.01em;
   margin-bottom: 2rem;
-  color: #1a1a1a;
+  color: #2c3e50;
 }
 
 // Section titles (e.g., "Current Research Areas")
 .home-section h2 {
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: 300;
+  font-size: 2.3rem;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-  color: #1a1a1a;
-  letter-spacing: -0.02em;
+  color: #2c3e50;
+  letter-spacing: -0.01em;
 }
 
 // Body text
@@ -45,8 +45,8 @@
 // Research area item titles (bold parts)
 .home-section p strong {
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  color: #1a1a1a;
+  font-weight: 600;
+  color: #0066cc;
   font-size: 1.15rem;
 }
 
@@ -260,8 +260,8 @@
   width: 100%;
   overflow: hidden;
   margin: 3rem 0;
-  padding: 2rem 0;
-  background-color: #f8f9fa;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .research-slider {
