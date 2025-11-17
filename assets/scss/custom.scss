@@ -1,5 +1,28 @@
 // Custom styles for DiReC Lab website
 
+// Header/Navigation styling
+.navbar {
+  background-color: #f8f9fa !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+  color: #333 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #555 !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0066cc !important;
+}
+
 // Group photo styling
 .group-photo-container {
   text-align: center;
