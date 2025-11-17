@@ -7,72 +7,22 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: DiReC Lab
-      subtitle: Digital Innovation and Research in Construction
-      text: |
-        <br>
-
-        We advance data-driven and AI-enabled approaches to improve work processes, efficiency, and sustainability across the built environment.
-
-        <br>
-  
-  - block: markdown
-    content:
-      title: Research
-      subtitle:
-      text: |
-        Our research focuses on four key areas:
-
-        **Project Intelligence** — Automating interpretation of project documents and generating solutions through AI and data analytics
-
-        **Data Interoperability** — Creating open, standards-based models for systems compatibility in asset-intensive industries
-
-        **Workforce Solutions** — Addressing construction labor shortages through productivity improvements and development strategies
-
-        **Educational Innovation** — Employing interactive games and simulations to enhance project management training effectiveness
-
-        [View Research →](./research/)
-    design:
-      columns: '1'
-
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      count: 3
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: compact
-      columns: '1'
-
-  - block: collection
-    content:
-      title: News
-      subtitle:
-      text:
-      count: 3
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: compact
-      columns: '1'
-
-  - block: markdown
-    content:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        # Digital Innovation and Research in Construction (DiReC) Lab
+
+        The Digital Innovation and Research in Construction (DiReC) Lab advances data-driven and AI-enabled models to improve work processes, efficiency, and sustainability across the built environment. Our research focuses on leveraging digital data and intelligent technologies to enhance decision-making throughout the project and asset life cycle. Despite the rapid digital transformation across other industries, construction continues to face challenges in fully harnessing the vast and growing data generated from projects, organizations, and industry systems. DiReC addresses this gap by combining artificial intelligence, machine learning, simulation, and data analytics to extract actionable insights from complex and heterogeneous data sources. Our team collaborates closely with industry partners to ensure our research is grounded in real-world challenges and produces practical, scalable impacts. Through interdisciplinary research and strong industry collaboration, DiReC aims to transform construction practices with intelligent, evidence-based, and socially responsible innovation.
+
+        ## Current Research Areas
+
+        **AI and data analytics for project intelligence** – automating the interpretation of project documents and requirements, and generating advanced solutions
+
+        **Data interoperability for asset intensive industries** – developing open, neutral and standards based models for data and systems interoperability.
+
+        **Workforce development and productivity solutions** – studying and developing effective solutions for critical construction workforce shortage.
+
+        **Innovative games and simulations for construction education and training** – using interactive games and simulations to radically improve the effectiveness of educating project management knowledge and principles.
     design:
       columns: '1'
 ---
