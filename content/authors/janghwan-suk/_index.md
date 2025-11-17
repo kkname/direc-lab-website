@@ -49,5 +49,4 @@ weight: 2
 user_groups:
   - Ph.D. Students
 ---
-
-Janghwan Suk is a Ph.D. student in the Department of Construction Science at Texas A&M University. His research focuses on advanced project management, construction sensing and analytics, and virtual reality applications in construction.
+Janghwan Suk is a Ph.D. student in the Department of Construction Science at Texas A&M University. His research focuses on advanced project management and control, sensing and data analytics for construction, virtual reality-based construction management.advanced project management, construction sensing and analytics, and virtual reality applications in construction.

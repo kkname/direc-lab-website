@@ -26,11 +26,11 @@ interests:
 
 education:
   courses:
-    - course: M.S. in Construction Management
-      institution:
+    - course: M.Eng. in Civil Engineering
+      institution: Chulalongkorn University
       year:
     - course: B.S. in Civil Engineering
-      institution:
+      institution: Chulalongkorn University
       year:
 
 # Social/Academic Networking
@@ -39,7 +39,7 @@ social:
     icon_pack: fas
     link: 'mailto:phumpat@tamu.edu'
 
-email: 'phumpat@tamu.edu'
+email: 'tota_2544@tamu.edu'
 
 highlight_name: false
 
@@ -49,5 +49,4 @@ weight: 5
 user_groups:
   - Ph.D. Students
 ---
-
-Phumpat Dejchai is a Ph.D. student in the Department of Construction Science at Texas A&M University.
+Phumpat Dejchai is a Ph.D. student and Graduate Research Assistant dedicated to advancing Construction Education through technology. His primary work involves the development of Serious Games and Virtual Reality applications for practical, immersive learning in construction management. His expertise also includes leveraging Deep Learning and Computer Vision models for data-driven construction solutions.Phumpat Dejchai is a Ph.D. student in the Department of Construction Science at Texas A&M University.
