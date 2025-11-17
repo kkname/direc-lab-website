@@ -28,7 +28,7 @@ sections:
 
   - block: markdown
     content:
-      title:
+      title: Recent Work
       subtitle:
       text: |
         <div class="research-slider-container">
@@ -37,28 +37,48 @@ sections:
               <img src="research-1.jpg" alt="Digital Project Delivery">
               <div class="slide-caption">
                 <h3>Digital Project Delivery</h3>
-                <p>Automating interpretation and generating advanced solutions</p>
               </div>
             </div>
             <div class="research-slide">
               <img src="research-2.jpg" alt="Digital Data Workflow">
               <div class="slide-caption">
                 <h3>Digital Data Workflow</h3>
-                <p>Open, standards-based models for systems compatibility</p>
               </div>
             </div>
             <div class="research-slide">
               <img src="research-3.jpg" alt="NLP Based Information Extraction">
               <div class="slide-caption">
                 <h3>NLP Based Information Extraction</h3>
-                <p>Addressing construction labor shortages</p>
               </div>
             </div>
             <div class="research-slide">
               <img src="research-4.jpg" alt="As-Built Schedule Visualization">
               <div class="slide-caption">
                 <h3>As-Built Schedule Visualization</h3>
-                <p>Interactive training for project management</p>
+              </div>
+            </div>
+            <div class="research-slide">
+              <img src="research-1.jpg" alt="Digital Project Delivery">
+              <div class="slide-caption">
+                <h3>Digital Project Delivery</h3>
+              </div>
+            </div>
+            <div class="research-slide">
+              <img src="research-2.jpg" alt="Digital Data Workflow">
+              <div class="slide-caption">
+                <h3>Digital Data Workflow</h3>
+              </div>
+            </div>
+            <div class="research-slide">
+              <img src="research-3.jpg" alt="NLP Based Information Extraction">
+              <div class="slide-caption">
+                <h3>NLP Based Information Extraction</h3>
+              </div>
+            </div>
+            <div class="research-slide">
+              <img src="research-4.jpg" alt="As-Built Schedule Visualization">
+              <div class="slide-caption">
+                <h3>As-Built Schedule Visualization</h3>
               </div>
             </div>
           </div>
