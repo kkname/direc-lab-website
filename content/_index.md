@@ -37,28 +37,48 @@ sections:
               <img src="research-1.jpg" alt="AI and Data Analytics">
               <div class="slide-caption">
                 <h3>AI and Data Analytics for Project Intelligence</h3>
-                <p>Automating interpretation and generating advanced solutions</p>
               </div>
             </div>
             <div class="research-slide">
               <img src="research-2.jpg" alt="Data Interoperability">
               <div class="slide-caption">
                 <h3>Data Interoperability for Asset Intensive Industries</h3>
-                <p>Open, standards-based models for systems compatibility</p>
               </div>
             </div>
             <div class="research-slide">
               <img src="research-3.jpg" alt="Workforce Solutions">
               <div class="slide-caption">
                 <h3>Workforce Development and Productivity Solutions</h3>
-                <p>Addressing construction labor shortages</p>
               </div>
             </div>
             <div class="research-slide">
               <img src="research-4.jpg" alt="Educational Innovation">
               <div class="slide-caption">
                 <h3>Games and Simulations for Education</h3>
-                <p>Interactive training for project management</p>
+              </div>
+            </div>
+            <div class="research-slide">
+              <img src="research-1.jpg" alt="AI and Data Analytics">
+              <div class="slide-caption">
+                <h3>AI and Data Analytics for Project Intelligence</h3>
+              </div>
+            </div>
+            <div class="research-slide">
+              <img src="research-2.jpg" alt="Data Interoperability">
+              <div class="slide-caption">
+                <h3>Data Interoperability for Asset Intensive Industries</h3>
+              </div>
+            </div>
+            <div class="research-slide">
+              <img src="research-3.jpg" alt="Workforce Solutions">
+              <div class="slide-caption">
+                <h3>Workforce Development and Productivity Solutions</h3>
+              </div>
+            </div>
+            <div class="research-slide">
+              <img src="research-4.jpg" alt="Educational Innovation">
+              <div class="slide-caption">
+                <h3>Games and Simulations for Education</h3>
               </div>
             </div>
           </div>
