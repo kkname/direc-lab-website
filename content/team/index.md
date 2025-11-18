@@ -45,7 +45,7 @@ sections:
 
         <div class="team-member">
           <div class="member-photo">
-            <img src="../author/janghwan-suk/avatar.jpg" alt="Janghwan Suk" style="transform: rotate(180deg);">
+            <img src="../author/janghwan-suk/avatar.jpg" alt="Janghwan Suk">
           </div>
           <div class="member-info">
             <p class="member-role">Ph.D. Student</p>
