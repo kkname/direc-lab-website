@@ -331,27 +331,72 @@
 }
 
 // Research Projects page styling
-.home-section {
-  // Project titles (bold parts in paragraphs)
-  p strong:first-child {
-    display: block;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 1.3rem;
-    color: #2c3e50;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
+.research-project {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.project-photo {
+  flex-shrink: 0;
+  width: 300px;
+}
+
+.project-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+.project-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+}
+
+.project-date {
+  font-family: 'Inter', sans-serif;
+  color: #888;
+  font-size: 0.95rem;
+  margin: 0 0 1rem 0;
+  font-style: italic;
+}
+
+.project-description {
+  font-family: 'Merriweather', Georgia, serif;
+  font-weight: 300;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+  margin: 0;
+}
+
+// Horizontal divider lines between projects
+.home-section hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2.5rem 0;
+}
+
+// Responsive: on tablets and phones, stack photo above content
+@media (max-width: 768px) {
+  .research-project {
+    flex-direction: column;
   }
 
-  // Horizontal divider lines between projects
-  hr {
-    border: none;
-    border-top: 1px solid #ddd;
-    margin: 2.5rem 0;
-  }
-
-  // Section headings (like "Active/Recent Projects")
-  h2 + p {
-    margin-top: 2rem;
+  .project-photo {
+    width: 100%;
+    max-width: 400px;
   }
 }
