@@ -13,11 +13,11 @@ role: Ph.D. Student
 organizations:
   - name: Texas A&M University
     url: 'https://www.tamu.edu'
-  - name: Department of Construction Science
+  - name: Department of Interdisciplinary Engineering
     url: ''
 
 # Short bio
-bio: My research interests include construction management, data analytics, and infrastructure systems.
+bio: 
 
 interests:
   - Construction Management
