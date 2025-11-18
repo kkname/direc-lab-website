@@ -28,7 +28,7 @@ sections:
 
   - block: markdown
     content:
-      title:
+      title: Recent Work
       subtitle:
       text: |
         <div class="research-slider-container">
