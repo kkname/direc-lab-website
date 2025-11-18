@@ -61,7 +61,7 @@ sections:
           <div class="member-info">
             <p class="member-role">Ph.D. Student</p>
             <h2 class="member-name"><a href="../author/rafay-hayat-ali">Rafay Hayat Ali</a></h2>
-            <p class="member-bio">Rafay Hayat Ali is a Ph.D. student in the Department of Construction Science at Texas A&M University. His research focuses on construction management, data analytics, and infrastructure systems.</p>
+            <p class="member-bio">Rafay Hayat Ali is a Ph.D. student in the Department of Interdisciplinary Engineering at Texas A&M University.</p>
           </div>
         </div>
 
